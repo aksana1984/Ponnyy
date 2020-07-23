@@ -3,7 +3,7 @@ html
   head
     meta(charset='utf-8')
     meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
-    link(rel="stylesheet", href="сss/style.сss")
+    link(rel="stylesheet", href="css/style.css")
     link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css' integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk' crossorigin='anonymous')
     link(rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap")
     title My Diploma Project
@@ -11,40 +11,54 @@ html
   body
     header
       .container
-        nav.navbar.navbar-expand-lg.navbar-light.bg-light
+        nav.navbar.navbar-expand-lg.navbar-light.bg-lightd-flex.p-0.mt-5
           button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
             span.navbar-toggler-icon
           div.collapse.navbar-collapse#navbarSupportedContent
             ul.navbar-nav.mr-auto
-              li.nav-item.dropdown
-                p.nav-text Для мужчин
-                a#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+              li.nav-item.dropdown.d-flex.align-items-center
+                span.nav-text Для мужчин
+                a#navbarDropdown.nav-link.dropdown-toggle(
+                  href='#', role='button', data-toggle='dropdown', 
+                  aria-haspopup='true', aria-expanded='false')
                 .dropdown-menu(aria-labelledby="navbarDropdown")
                   a.dropdown-item(href="#") Рубашки
                   a.dropdown-item(href="#") Брюки
                   a.dropdown-item(href="#") Ботинки
-              li.nav-item.dropdown
+              li.nav-item.dropdown.d-flex.align-items-center
                 span.nav-text Для женщин 
-                a#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') 
+                a#navbarDropdown.nav-link.dropdown-toggle(
+                  href='#', role='button', data-toggle='dropdown', 
+                  aria-haspopup='true', aria-expanded='false'
+                  ) 
                 .dropdown-menu(aria-labelledby="navbarDropdown")
                   a.dropdown-item(href="#") Платья
                   a.dropdown-item(href="#") Блузки
                   a.dropdown-item(href="#") Брюки
-              li.nav-item.dropdown
+              li.nav-item.dropdown.d-flex.align-items-center
                 span.nav-text Для детей
-                a#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                a#navbarDropdown.nav-link.dropdown-toggle.mr-5(
+                  href='#', role='button', data-toggle='dropdown', 
+                  aria-haspopup='true', aria-expanded='false'
+                  )
                 .dropdown-menu(aria-labelledby="navbarDropdown")
                   a.dropdown-item(href="#") Футболкти
                   a.dropdown-item(href="#") Свитшоты
                   a.dropdown-item(href="#") Кепки
-              li.nav-item.dropdown
+              li.nav-item.dropdown.d-flex
                 a.navbar-brand(href="#")
-                  img(scr="./imeges/Frame.png" width="40" height="40" alt="Frame" loading="logo") 
-                  |the loop
+                  img(src="imeges/Frame.png" width="40" height="40" alt="Frame" loading="logo") 
+                  span.brand-name the loop
               li.nav-item
                 a.nav-link(href="#") Оплата
               li.nav-item
                 a.nav-link(href="#") Доставка
+              .shopping
+                img(src="imeges/Group.svg", alt="Shopping")
+              .quantity
+                img(src="imeges/Group6.svg", alt="quantity")
+
+
 
     main
       section

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="сss/style.сss">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&amp;display=swap">
     <title>My Diploma Project</title>
@@ -11,23 +11,24 @@
   <body>
     <header>
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-lightd-flex p-0 mt-5">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item dropdown">
-                <p class="nav-text">Для мужчин</p><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+              <li class="nav-item dropdown d-flex align-items-center"><span class="nav-text">Для мужчин</span><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="#">Рубашки</a><a class="dropdown-item" href="#">Брюки</a><a class="dropdown-item" href="#">Ботинки</a></div>
               </li>
-              <li class="nav-item dropdown"><span class="nav-text">Для женщин </span><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> </a>
+              <li class="nav-item dropdown d-flex align-items-center"><span class="nav-text">Для женщин </span><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="#">Платья</a><a class="dropdown-item" href="#">Блузки</a><a class="dropdown-item" href="#">Брюки</a></div>
               </li>
-              <li class="nav-item dropdown"><span class="nav-text">Для детей</span><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+              <li class="nav-item dropdown d-flex align-items-center"><span class="nav-text">Для детей</span><a class="nav-link dropdown-toggle mr-5" id="navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="#">Футболкти</a><a class="dropdown-item" href="#">Свитшоты</a><a class="dropdown-item" href="#">Кепки</a></div>
               </li>
-              <li class="nav-item dropdown"><a class="navbar-brand" href="#"><img scr="./imeges/Frame.png" width="40" height="40" alt="Frame" loading="logo">the loop</a></li>
+              <li class="nav-item dropdown d-flex"><a class="navbar-brand" href="#"><img src="imeges/Frame.png" width="40" height="40" alt="Frame" loading="logo"><span class="brand-name">the loop</span></a></li>
               <li class="nav-item"><a class="nav-link" href="#">Оплата</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Доставка</a></li>
+              <div class="shopping"><img src="imeges/Group.svg" alt="Shopping"></div>
+              <div class="quantity"><img src="imeges/Group6.svg" alt="quantity"></div>
             </ul>
           </div>
         </nav>
