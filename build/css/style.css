@@ -2,6 +2,9 @@ header, main, footer {
   max-width: 1920px;
   margin: 0 auto; }
 
+header {
+  padding-bottom: 70px; }
+
 body {
   padding: 0;
   margin: 0;
@@ -31,15 +34,54 @@ button {
   letter-spacing: 0.03em;
   color: #FFFFFF; }
 
-h1 {
+.first-screen_text h1 {
   font-size: 55px;
   line-height: 67px;
   letter-spacing: 0.04em;
   color: #000000;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-bottom: 55px; }
 
-h2 {
+.first-screen_text h2 {
   font-size: 30px;
   line-height: 37px;
   letter-spacing: 0.02em;
+  color: #000000;
+  margin-top: 34px;
+  margin-bottom: 35px; }
+
+.btn-first-scr {
+  background-color: #D7B399 !important;
+  border-radius: 0 !important; }
+
+h5 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: right;
+  letter-spacing: 0.05em;
+  text-decoration-line: line-through;
+  text-transform: uppercase;
   color: #000000; }
+
+.carousel-caption {
+  position: absolute;
+  right: 0 !important;
+  top: 0 !important; }
+  .carousel-caption p {
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #D84033; }
+
+.carousel-indicators li {
+  background-color: #CECECE !important; }
+
+text-secondary {
+  background: #D7B399 !important; }
+
+.carousel-inner {
+  padding-bottom: 130px; }
