@@ -144,3 +144,76 @@ text-secondary {
 .wrapper-catalog-woman {
   justify-content: start;
   padding-left: 35px; }
+
+.card-title {
+  position: absolute;
+  left: 30px;
+  bottom: 24px;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-decoration-line: none; }
+
+.new-item {
+  padding: 150px 0;
+  background: #F9F6F1;
+  text-align: center; }
+  .new-item .text-new {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 103px; }
+
+.row-new-card {
+  margin-bottom: 103px; }
+
+.card-body .card-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  padding-top: 25px;
+  padding-bottom: 15px; }
+
+.card-body .card-rext-p {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #D7B399 !important; }
+
+.line-left, .line-right, .line-bt-left, .line-bt-right {
+  border: 3px solid #D7B399;
+  width: 25px;
+  height: 25px; }
+
+.line-left {
+  border-bottom: 0;
+  border-right: 0; }
+
+.line-right {
+  position: absolute;
+  right: 0;
+  border-left: 0;
+  border-bottom: 0; }
+
+.line-bt-left {
+  position: absolute;
+  bottom: 0;
+  border-right: 0;
+  border-top: 0; }
+
+.line-bt-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-top: 0;
+  border-left: 0; }
+
+.btn-new-card {
+  background-color: #D7B399 !important; }
