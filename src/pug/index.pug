@@ -69,7 +69,7 @@ html
                 h2 Зимняя распродажа
                 h1 СКИДКИ ДО 90%
                 button.btn.btn-first-scr
-                  |СМОТРЕТЬ МОДЕЛИ
+                  span.button-name СМОТРЕТЬ МОДЕЛИ
               img(src="imeges/running_shoes_PNG5823.png" class="d-block w-50" alt="Running shoes")
               .carousel-caption.d-none.d-md-block
                 h5 9 900 ₽
@@ -79,7 +79,7 @@ html
                 h2 Зимняя распродажа
                 h1 СКИДКИ ДО 90%
                 button.btn.btn-first-scr
-                  |СМОТРЕТЬ МОДЕЛИ
+                  span.button-name СМОТРЕТЬ МОДЕЛИ
               img(src="imeges/running_shoes_PNG5823.png" class="d-block w-50" alt="Running shoes")
               .carousel-caption.d-none.d-md-block
                 h5 9 900 ₽
@@ -89,7 +89,7 @@ html
                 h2 Зимняя распродажа
                 h1 СКИДКИ ДО 90%
                 button.btn.btn-first-scr
-                  |СМОТРЕТЬ МОДЕЛИ
+                  span.button-name СМОТРЕТЬ МОДЕЛИ
               img(src="imeges/running_shoes_PNG5823.png" class="d-block w-50" alt="Running shoes")
               .carousel-caption.d-none.d-md-block
                 h5 9 900 ₽
@@ -211,10 +211,20 @@ html
                 div.card-body
                   h3.card-text Коктейльное <br> платье
                   p.card-rext-p ₽ 40 000
-          button.btn.btn-new-card.rounded-0 ВСЕ МОДЕЛИ
+          button.btn.btn-new-card.rounded-0.px-4 
+            span.button-name.mr-2 ВСЕ МОДЕЛИ
             img.btn-arrow(src="imeges/Arrow.svg", alt="Arrow")
 
-
+      section.present
+        container
+          .present-wrapper.d-flex.justify-content-center.py-5 
+            h2.present-text ПОЛУЧАЙТЕ СКИДКИ И ПОДАРКИ 
+            form.rounded-0
+              .form-group
+                input(type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваш e-mail")
+            button.btn-form.rounded-0
+              span.button-name ПОДПИСАТЬСЯ
+          
               
 
 

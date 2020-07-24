@@ -217,3 +217,28 @@ text-secondary {
 
 .btn-new-card {
   background-color: #D7B399 !important; }
+
+.present {
+  background: #212121; }
+
+.button-name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF; }
+
+.btn-form {
+  border: 0; }
+
+.present-text {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-right: 60px; }
+
+form {
+  margin-right: 35px; }
