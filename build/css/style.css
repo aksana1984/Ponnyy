@@ -241,3 +241,42 @@ text-secondary {
 
 form {
   margin-right: 35px; }
+
+footer {
+  background: #212121;
+  padding-top: 73px;
+  padding-bottom: 78px; }
+
+.text-footer {
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF; }
+
+.brand-name-footer {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF; }
+
+.bottom-menu .items > .item-link a {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF; }
+
+.bottom-menu a {
+  font-size: 14px;
+  line-height: 22px;
+  color: #CBCFD4;
+  margin-bottom: 10px; }
+
+.bottom-menu a:hover {
+  color: #ffffff;
+  text-decoration: none; }
+
+.bottom-menu .items > .item-link {
+  margin-bottom: 20px; }
