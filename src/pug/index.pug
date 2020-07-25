@@ -12,51 +12,56 @@ html
     header
       .container
         nav.navbar.navbar-expand-lg.navbar-light.bg-lightd-flex.p-0.mt-5
-          button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
+          button.navbar-toggler(
+            type="button" data-toggle="collapse" 
+            data-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" 
+            aria-expanded="false" aria-label="Toggle navigation"
+            )
             span.navbar-toggler-icon
-          div.collapse.navbar-collapse#navbarSupportedContent
-            ul.navbar-nav.mr-auto
-              li.nav-item.dropdown.d-flex.align-items-center
-                span.nav-text Для мужчин
-                a#navbarDropdown.nav-link.dropdown-toggle(
-                  href='#', role='button', data-toggle='dropdown', 
-                  aria-haspopup='true', aria-expanded='false')
-                .dropdown-menu(aria-labelledby="navbarDropdown")
-                  a.dropdown-item(href="#") Рубашки
-                  a.dropdown-item(href="#") Брюки
-                  a.dropdown-item(href="#") Ботинки
-              li.nav-item.dropdown.d-flex.align-items-center
-                span.nav-text Для женщин 
-                a#navbarDropdown.nav-link.dropdown-toggle(
-                  href='#', role='button', data-toggle='dropdown', 
-                  aria-haspopup='true', aria-expanded='false'
-                  ) 
-                .dropdown-menu(aria-labelledby="navbarDropdown")
-                  a.dropdown-item(href="#") Платья
-                  a.dropdown-item(href="#") Блузки
-                  a.dropdown-item(href="#") Брюки
-              li.nav-item.dropdown.d-flex.align-items-center
-                span.nav-text Для детей
-                a#navbarDropdown.nav-link.dropdown-toggle.mr-5(
-                  href='#', role='button', data-toggle='dropdown', 
-                  aria-haspopup='true', aria-expanded='false'
-                  )
-                .dropdown-menu(aria-labelledby="navbarDropdown")
-                  a.dropdown-item(href="#") Футболкти
-                  a.dropdown-item(href="#") Свитшоты
-                  a.dropdown-item(href="#") Кепки
-              li.nav-item.dropdown.d-flex
-                a.navbar-brand(href="#")
-                  img(src="imeges/Frame.png" width="40" height="40" alt="Frame" loading="logo") 
-                  span.brand-name the loop
-              li.nav-item
-                a.nav-link(href="#") Оплата
-              li.nav-item
-                a.nav-link(href="#") Доставка
-              .shopping
-                img(src="imeges/Group.svg", alt="Shopping")
-              .quantity
-                img(src="imeges/Group6.svg", alt="quantity")
+          .collapse.navbar-collapse.justify-content-around#navbarSupportedContent            
+              ul.navbar-nav.align-items-center
+                li.nav-item.dropdown.d-flex.align-items-center
+                  span.nav-text Для мужчин
+                  a#navbarDropdown.nav-link.dropdown-toggle(
+                    href='#', role='button', data-toggle='dropdown', 
+                    aria-haspopup='true', aria-expanded='false')
+                  .dropdown-menu(aria-labelledby="navbarDropdown")
+                    a.dropdown-item(href="#") Рубашки
+                    a.dropdown-item(href="#") Брюки
+                    a.dropdown-item(href="#") Ботинки
+                li.nav-item.dropdown.d-flex.align-items-center
+                  span.nav-text Для женщин 
+                  a#navbarDropdown.nav-link.dropdown-toggle(
+                    href='#', role='button', data-toggle='dropdown', 
+                    aria-haspopup='true', aria-expanded='false'
+                    ) 
+                  .dropdown-menu(aria-labelledby="navbarDropdown")
+                    a.dropdown-item(href="#") Платья
+                    a.dropdown-item(href="#") Блузки
+                    a.dropdown-item(href="#") Брюки
+                li.nav-item.dropdown.d-flex.align-items-center
+                  span.nav-text Для детей
+                  a#navbarDropdown.nav-link.dropdown-toggle.mr-5(
+                    href='#', role='button', data-toggle='dropdown', 
+                    aria-haspopup='true', aria-expanded='false'
+                    )
+                  .dropdown-menu(aria-labelledby="navbarDropdown")
+                    a.dropdown-item(href="#") Футболкти
+                    a.dropdown-item(href="#") Свитшоты
+                    a.dropdown-item(href="#") Кепки
+                li.nav-item.dropdown.d-flex
+                  a.navbar-brand(href="#")
+                    img(src="imeges/Frame.png" width="40" height="40" alt="Frame" loading="logo") 
+                    span.brand-name the loop
+                li.nav-item
+                  a.nav-link(href="#") Оплата
+                li.nav-item
+                  a.nav-link(href="#") Доставка
+                .shopping
+                  img(src="imeges/Group.svg", alt="Shopping")
+                .quantity
+                  img(src="imeges/Group6.svg", alt="quantity")
 
         div#carouselExampleCaptions(class="carousel slide" data-ride="carousel")
           ol.carousel-indicators
@@ -216,15 +221,65 @@ html
             img.btn-arrow(src="imeges/Arrow.svg", alt="Arrow")
 
       section.present
-        container
-          .present-wrapper.d-flex.justify-content-center.py-5 
-            h2.present-text ПОЛУЧАЙТЕ СКИДКИ И ПОДАРКИ 
-            form.rounded-0
-              .form-group
-                input(type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваш e-mail")
-            button.btn-form.rounded-0
+        .container
+          .present-wrapper.d-flex.justify-content-between
+            h2.present-text.mb-0 ПОЛУЧАЙТЕ СКИДКИ И ПОДАРКИ 
+            form
+              .form-group.mb-0
+                input.rounded-0(type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваш e-mail")
+            button.btn-form.rounded-0.border-0
               span.button-name ПОДПИСАТЬСЯ
-          
+      section.discounts.new-item
+        .container
+          h2.text-new СКИДКИ ДО 90%
+          .row.row-new-card
+            .col.col-new
+              .card.new-card.border-0
+                .new-card-flex.d-flex.justify-content-between
+                  .line-left
+                  .line-right
+                  .line-bt-left
+                  .line-bt-right
+                img(src="imeges/Rectangle 2.png" class="card-img-top" alt="...")
+                div.card-body
+                  h3.card-text Коктейльное <br> платье
+                  p.card-rext-p ₽ 40 000
+            .col.col-new
+              .card.new-card.border-0
+                .new-card-flex.d-flex.justify-content-between
+                  .line-left
+                  .line-right
+                  .line-bt-left
+                  .line-bt-right
+                img(src="imeges/Rectangle 2.png" class="card-img-top" alt="...")
+                div.card-body
+                  h3.card-text Коктейльное <br> платье
+                  p.card-rext-p ₽ 40 000
+            .col.col-new
+              .card.new-card.border-0
+                .new-card-flex.d-flex.justify-content-between
+                  .line-left
+                  .line-right
+                  .line-bt-left
+                  .line-bt-right
+                img(src="imeges/Rectangle 2.png" class="card-img-top" alt="...")
+                div.card-body
+                  h3.card-text Коктейльное <br> платье
+                  p.card-rext-p ₽ 40 000
+            .col.col-new
+              .card.new-card.border-0
+                .new-card-flex.d-flex.justify-content-between
+                  .line-left
+                  .line-right
+                  .line-bt-left
+                  .line-bt-right
+                img(src="imeges/Rectangle 2.png" class="card-img-top" alt="...")
+                div.card-body
+                  h3.card-text Коктейльное <br> платье
+                  p.card-rext-p ₽ 40 000
+          button.btn.btn-new-card.rounded-0.px-4 
+            span.button-name.mr-2 ВСЕ МОДЕЛИ
+            img.btn-arrow(src="imeges/Arrow.svg", alt="Arrow")      
               
 
 
