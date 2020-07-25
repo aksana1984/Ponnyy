@@ -3,7 +3,8 @@ header, main, footer {
   margin: 0 auto; }
 
 header {
-  padding-bottom: 70px; }
+  padding-bottom: 70px;
+  background: #F9F6F1; }
 
 body {
   padding: 0;
@@ -54,28 +55,37 @@ button {
   background-color: #D7B399 !important;
   border-radius: 0 !important; }
 
-h5 {
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
-  text-align: right;
-  letter-spacing: 0.05em;
-  text-decoration-line: line-through;
-  text-transform: uppercase;
-  color: #000000; }
-
-.carousel-caption {
-  position: absolute;
-  right: 0 !important;
-  top: 0 !important; }
-  .carousel-caption p {
+.slider-img-block {
+  text-align: end; }
+  .slider-img-block h5 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+    color: #000000;
+    position: absolute;
+    right: 0;
+    top: 40px; }
+  .slider-img-block p {
     font-weight: bold;
     font-size: 42px;
     line-height: 51px;
     text-align: right;
     letter-spacing: 0.02em;
     text-transform: uppercase;
-    color: #D84033; }
+    color: #D84033;
+    margin-bottom: 14px;
+    position: absolute;
+    top: 83px;
+    right: 0; }
+
+.carousel-caption {
+  position: absolute;
+  right: 0 !important;
+  top: 0 !important; }
 
 .carousel-indicators li {
   background-color: #CECECE !important; }
@@ -157,7 +167,7 @@ text-secondary {
 
 .new-item {
   padding: 150px 0;
-  background: #F9F6F1;
+  background: #ffffff;
   text-align: center; }
   .new-item .text-new {
     font-weight: bold;
@@ -171,6 +181,9 @@ text-secondary {
 .row-new-card {
   margin-bottom: 103px; }
 
+.new-card img {
+  padding-top: 22px; }
+
 .card-body .card-text {
   font-weight: 600;
   font-size: 14px;
@@ -180,7 +193,7 @@ text-secondary {
   padding-top: 25px;
   padding-bottom: 15px; }
 
-.card-body .card-rext-p {
+.card-text-p {
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
@@ -194,7 +207,9 @@ text-secondary {
 
 .line-left {
   border-bottom: 0;
-  border-right: 0; }
+  border-right: 0;
+  position: absolute;
+  top: 0; }
 
 .line-right {
   position: absolute;
@@ -280,3 +295,15 @@ footer {
 
 .bottom-menu .items > .item-link {
   margin-bottom: 20px; }
+
+.title i {
+  margin-right: 5px; }
+
+.copyright {
+  background: #ffffff;
+  padding: 30px 0 23px 0; }
+
+.copy {
+  font-size: 14px;
+  line-height: 22px;
+  color: #212121; }

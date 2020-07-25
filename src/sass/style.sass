@@ -4,6 +4,7 @@ header, main, footer
 
 header
     padding-bottom: 70px
+    background: #F9F6F1
 
 body
     padding: 0
@@ -55,21 +56,21 @@ button
     background-color: #D7B399 !important
     border-radius: 0 !important
     
- 
-h5
-    font-weight: bold
-    font-size: 24px
-    line-height: 29px
-    text-align: right
-    letter-spacing: 0.05em
-    text-decoration-line: line-through
-    text-transform: uppercase
-    color: #000000
+.slider-img-block
+    text-align: end
 
-.carousel-caption
-    position: absolute
-    right: 0 !important
-    top: 0 !important
+    h5
+        font-weight: bold
+        font-size: 24px
+        line-height: 29px
+        text-align: right
+        letter-spacing: 0.05em
+        text-decoration-line: line-through
+        text-transform: uppercase
+        color: #000000
+        position: absolute
+        right: 0
+        top: 40px
 
     p
         font-weight: bold
@@ -79,6 +80,16 @@ h5
         letter-spacing: 0.02em
         text-transform: uppercase
         color: #D84033
+        margin-bottom: 14px
+        position: absolute
+        top: 83px
+        right: 0
+
+
+.carousel-caption
+    position: absolute
+    right: 0 !important
+    top: 0 !important
 
 .carousel-indicators li 
     background-color: #CECECE !important
@@ -164,7 +175,7 @@ text-secondary
     
 .new-item
     padding: 150px 0
-    background: #F9F6F1
+    background: #ffffff
     text-align: center
 
     .text-new
@@ -179,6 +190,9 @@ text-secondary
 .row-new-card
     margin-bottom: 103px
 
+.new-card img
+    padding-top: 22px
+
 .card-body
     .card-text 
         font-weight: 600
@@ -189,14 +203,14 @@ text-secondary
         padding-top: 25px
         padding-bottom: 15px
 
-    .card-rext-p
-        font-weight: bold
-        font-size: 18px
-        line-height: 22px
-        text-align: center
-        color: #D7B399 !important
+.card-text-p
+    font-weight: bold
+    font-size: 18px
+    line-height: 22px
+    text-align: center
+    color: #D7B399 !important
 
-.line-left, .line-right, .line-bt-left,.line-bt-right
+.line-left, .line-right, .line-bt-left, .line-bt-right
     border: 3px solid #D7B399
     width: 25px
     height: 25px
@@ -204,6 +218,8 @@ text-secondary
 .line-left
     border-bottom: 0
     border-right: 0
+    position: absolute
+    top: 0
 
 .line-right
     position: absolute
@@ -288,7 +304,17 @@ footer
     color: #ffffff
     text-decoration: none
 
-
-
 .bottom-menu .items > .item-link    
     margin-bottom: 20px
+
+.title i
+    margin-right: 5px
+
+.copyright
+    background: #ffffff
+    padding: 30px 0 23px 0
+
+.copy
+    font-size: 14px
+    line-height: 22px
+    color: #212121
