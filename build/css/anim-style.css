@@ -1,0 +1,23 @@
+.block {
+  padding: 100px 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 600px; }
+
+.block1 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  animation: duration; }
+
+.block1 {
+  width: 100px;
+  height: 100px;
+  background: #380c72; }
+
+.block1 {
+  width: 100px;
+  height: 100px;
+  background: #38b611; }
+
+@keyframes shadow {}
